@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+    font: normal 16pt arial;
+    color: white;
+}
+body h2{
+    text-align: center;
+}
+/*aqui é o rodape do topo*/
+header{
+    background-color:  #721890;
+    height: 50%;
+    padding: 10px;
+    display: flex;
+    border-radius: 1%;
+}
+
+/*titulo do rodape*/
+header p{
+    margin: 2%;
+}
+/*o contener que fica o meu menu*/
+main{
+    height: 100%;
+    padding: 35px;
+}
+/*aqui fica o menu */
+nav {
+    border-radius: 1em;
+    padding: 100px;
+    position: absolute;
+    left: 50%;
+    margin-right:  -50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    
+}
+/*detalhamento do menu */
+nav a{
+    background-color: white;
+    color:rgb(0, 0, 0);
+    padding: 15px;
+    width: 120px;
+    text-decoration: none;
+    margin-left: 2%;
+    text-align: center;
+    cursor: pointer;
+}
+section#sala{
+    text-align: center;
+}
+/*imagem da tela */
+div#img{
+    width: 900px;
+    height: 700px;
+    display: flex;
+    position: absolute;
+    left: 65%;
+    margin-top: 25%;
+    transform: translate(-50%, -50%);
+}
+div#text {
+    position: absolute;
+    left: 60%;
+    margin-top: 30%;
+    transform: translate(-50%, -50%);
+}
+section#sala1 h2{
+    position: absolute;
+    left: 50%;
+    margin-top: 45%;
+    transform: translate(-50%, -50%);
+}
+
+
+footer#fim{
+    background-color: #721890;
+    height: 100%;
+    padding: 10px;
+    margin-top: 50%;
+    border-radius: 1%;
+    text-align: center;
+}
+footer#fim a{
+    text-decoration: none;
+    color:white;
+    text-align: center;
+}
+@media screen and (max-width: 420px){
+    header{
+        font: 12pt arial;
+    }
+    body h2{
+        font: 18pt arial
+    }
+    nav{
+        border-radius: 1em;
+        padding: 20px;
+        position: absolute;
+        left: 50%;
+        margin-right:  -50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+    }
+    nav a{
+        background-color: white;
+        color:rgb(0, 0, 0);
+        padding: 10px;
+        width: 80px;
+        font: normal 10pt arial;
+        text-decoration: none;
+        margin-left: 1%;
+        text-align: center;
+        cursor: pointer;
+    }
+    div#text {
+        font: 18pt arial;
+        position: absolute;
+        left: 60%;
+        margin-top: 20%;
+        transform: translate(-50%, -50%);
+    }
+    div#img{
+    width: 200px;
+    height: 400px;
+    display: flex;
+    position: absolute;
+    left: 45%;
+    margin-top: 130%;
+    transform: translate(-50%, -50%);
+}
+footer#fim{
+    background-color:  #721890;
+    height: 25%;
+    padding: 5px;
+    margin-top: 180%;
+    border-radius: 1%;
+    text-align: center;
+
+
+}
+footer#fim p{
+    font: 12pt arial;
+}
+    
+    }
+   
+
